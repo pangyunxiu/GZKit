@@ -13,6 +13,9 @@
 		4D91211D1E822AEE00281D40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D91211B1E822AEE00281D40 /* Main.storyboard */; };
 		4D91211F1E822AEE00281D40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D91211E1E822AEE00281D40 /* Assets.xcassets */; };
 		4D9121221E822AEE00281D40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D9121201E822AEE00281D40 /* LaunchScreen.storyboard */; };
+		4D91212D1E822BD900281D40 /* GZLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D91212C1E822BD900281D40 /* GZLabel.m */; };
+		4D9121301E822BF500281D40 /* GZButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D91212F1E822BF500281D40 /* GZButton.m */; };
+		4D9121331E82618000281D40 /* GZWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D9121321E82618000281D40 /* GZWebViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,12 @@
 		4D91211E1E822AEE00281D40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D9121211E822AEE00281D40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4D9121231E822AEE00281D40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D91212B1E822BD900281D40 /* GZLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GZLabel.h; sourceTree = "<group>"; };
+		4D91212C1E822BD900281D40 /* GZLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GZLabel.m; sourceTree = "<group>"; };
+		4D91212E1E822BF500281D40 /* GZButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GZButton.h; sourceTree = "<group>"; };
+		4D91212F1E822BF500281D40 /* GZButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GZButton.m; sourceTree = "<group>"; };
+		4D9121311E82618000281D40 /* GZWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GZWebViewController.h; sourceTree = "<group>"; };
+		4D9121321E82618000281D40 /* GZWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GZWebViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +67,14 @@
 		4D9121111E822AED00281D40 /* GZKit */ = {
 			isa = PBXGroup;
 			children = (
+				4D9121291E822B9600281D40 /* GZLabel */,
+				4D91212A1E822BAE00281D40 /* GZButton */,
 				4D9121151E822AED00281D40 /* AppDelegate.h */,
 				4D9121161E822AED00281D40 /* AppDelegate.m */,
 				4D9121181E822AED00281D40 /* ViewController.h */,
 				4D9121191E822AED00281D40 /* ViewController.m */,
+				4D9121311E82618000281D40 /* GZWebViewController.h */,
+				4D9121321E82618000281D40 /* GZWebViewController.m */,
 				4D91211B1E822AEE00281D40 /* Main.storyboard */,
 				4D91211E1E822AEE00281D40 /* Assets.xcassets */,
 				4D9121201E822AEE00281D40 /* LaunchScreen.storyboard */,
@@ -77,6 +90,24 @@
 				4D9121131E822AED00281D40 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4D9121291E822B9600281D40 /* GZLabel */ = {
+			isa = PBXGroup;
+			children = (
+				4D91212B1E822BD900281D40 /* GZLabel.h */,
+				4D91212C1E822BD900281D40 /* GZLabel.m */,
+			);
+			path = GZLabel;
+			sourceTree = "<group>";
+		};
+		4D91212A1E822BAE00281D40 /* GZButton */ = {
+			isa = PBXGroup;
+			children = (
+				4D91212E1E822BF500281D40 /* GZButton.h */,
+				4D91212F1E822BF500281D40 /* GZButton.m */,
+			);
+			path = GZButton;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,7 +183,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D91211A1E822AED00281D40 /* ViewController.m in Sources */,
+				4D91212D1E822BD900281D40 /* GZLabel.m in Sources */,
+				4D9121331E82618000281D40 /* GZWebViewController.m in Sources */,
 				4D9121171E822AED00281D40 /* AppDelegate.m in Sources */,
+				4D9121301E822BF500281D40 /* GZButton.m in Sources */,
 				4D9121141E822AED00281D40 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
